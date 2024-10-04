@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+
+}
+
+
+body{
+    /* background-color:#FBFCFF; */
+    background-color: #EAEDFE;
+    overflow-x: hidden;
+}
+
+/*======================== NAVBAR ==============================*/
+nav{
+    width: 100vw;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background-image:linear-gradient(#F0E2D6,#E8EBFE);
+    position: fixed;
+    z-index: 999;
+    
+}
+nav > h1:first-child{
+    font-size: 3rem;
+    font-family: Lobster;
+    
+}
+nav .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav select{
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    margin: 0 5%;
+    
+}
+nav button{
+    padding: 1% 2.5%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0E1552;
+    border-radius: 5rem;
+}
+nav i{
+    display: none;
+}
+
+
+/*======================== page 1 ==============================*/
+
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#EEE4E3,#F3F5FE);
+}
+.page1 .fillar{
+    width: 100vw;
+    height: 14vh;
+    background-color: #EAEDFE;
+}
+.page1-wrapper{
+    display: flex;
+}
+
+.page1-l{
+    width: 50%;
+    background-color: #EAEDFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page1-l .content {
+
+    width: 60%;
+
+}
+.page1-l .content .heading h1{
+    font-size: 3.5rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+.page1-l .content p{
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+    color: #89B0EC;
+}
+
+.page1-l .content button{
+
+    padding: 3% 6%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0E1552;
+    border-radius: 5rem;
+
+}
+
+.page1-r{
+    width: 50%;
+    background-color: greenyellow;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page1-r img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ================================== PAGE 2 ========================= */
+
+.page2{
+    width: 100vw;
+    height: 70vh;
+    background-color: #EAEDFE;
+    /* background-image: linear-gradient(#CDD0EB,#FBFCFF); */
+}
+.p2-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    
+  
+
+}
+
+/* ============ page2 left section ============ */
+.p2-l{
+    width: 40%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p2-l .cont-l{
+    width: 75%;
+    margin-left: 20%;
+    
+}
+.p2-l .cont-l h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.p2-l .cont-l p{
+    font-size: 1.5rem;
+    margin-top: 7%;
+}
+
+
+
+/* ---------------- Page 2 right section ------------- */
+
+.p2-r{
+    width: 60%;
+    
+    
+    display: flex;
+    position: relative;
+}
+.p2-r .card{
+    width: 26vw;
+    height: 40vh;
+    background-color:#FFFFFF;
+    border-radius: 5rem;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.p2-r .card .card-top{
+    display:flex;
+    align-items: center;
+    gap: 15%;
+}
+.p2-r .card .icon{
+    width: 100px;
+    height: 100px;
+    background-color: #FFF9E8;
+    border-radius: 50%;
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.p2-r .card  h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.p2-r .card .card-bottom p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: gray;
+    margin-top: 9%;
+}
+.p2-r .card .card-bottom button{
+    font-size: 2rem;
+    color: #9F0000;
+    background-color: transparent;
+    border: none;
+    margin: 5% ;
+}
+
+.p2-r .card-1{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+
+}
+
+.p2-r #card2{
+    position: absolute;
+
+    top: 30%;
+    left: 50%;
+    
+    z-index: 5;
+
+}
+
+
+
+/* ================== PAGE 3 ================== */
+
+.page3{
+    width: 100vw;
+
+}
+.logo > h1{
+    text-align: center;
+}
+.in-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     margin: 2% 5rem;
+   
+}
+.p3-cont{
+    display: flex;
+}
+.p3-l{
+    width: 50%;
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+}
+.p3-l img{
+    width: 100%;
+
+}
+.p3-r{
+    width: 50%;
+}
+.p3-r-inner{
+    width: 80%;
+}
+.p3-r-inner  .fh{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top:20%;
+    
+}
+.p3-r-inner  p{
+    font-size: 1.5rem;
+    margin-top: 5%;
+    color: gray;
+}
+.p3-cont2{
+    margin: 8% 0;
+}
+
+
+/* =========================== Page 4 ====================== */
+
+
+.page4{
+    width: 100vw;
+    height: 55vh;
+    background-color: #0E1552;
+    position: relative;
+}
+.page4-wrapper{
+    width: 100%;
+    position: relative;
+}
+.page4-wrapper .image{
+    position: absolute;
+    width: 35rem;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center;
+    top: -25rem;
+    left: 20rem;
+
+}
+
+.page4-wrapper img{
+    width: 100%;
+  
+}
+
+.page4-cont{
+    color:white;
+    position: absolute;
+    left: 60%;
+}
+.page4-cont > h1{
+    font-size: 3.5rem;
+
+}
+.page4-cont p{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.page4-cont button{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* ================== FOOTER ============= */
+
+footer {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style-type: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.get-in-touch p {
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+}
+
+.get-in-touch p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(238,238,248,1) 0%, rgba(251,249,249,1) 100%);
+}
+
+

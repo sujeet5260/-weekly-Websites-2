@@ -1,0 +1,333 @@
+
+
+@media (min-width: 360px) and (max-width: 600px) {
+
+
+    nav .menu , nav button{
+        display: none;
+    }
+    nav i{
+        display: initial;
+        margin-right: 5%;
+        font-size: 2rem;
+    }
+    nav h1:first-child{
+        margin-left: 5%;
+    }
+
+    nav{
+        justify-content: space-between;
+        width: 100vw;
+        height: 10%;
+    }
+
+
+    /*======================= PAGE 1 ========================*/
+  
+
+      .page1{
+        width: 100vw;
+      }
+
+      .page1-wrapper{
+           display: initial;
+       }
+      .page1-l{
+           width: 100vw;
+           display: initial;
+           
+        
+        }
+
+        .page1-l .content {
+
+            width: 80vw;
+            margin-left: 5%;
+        
+        }
+        .page1-l .content .heading h1{
+            font-size: 2rem;
+            font-family: Helvetica, sans-serif;
+            font-weight: 900;
+            margin-bottom: 4%;
+        }
+        .page1-l .content p{
+            font-size: 1.1rem;
+            margin-bottom: 4%;
+            color: #89B0EC;
+        }
+        
+        .page1-l .content button{
+        
+            padding: 3% 6%;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: white;
+            background-color: #0E1552;
+            border-radius: 5rem;
+        
+        }
+        .page1-r{
+            width: 100vw;
+        }
+
+
+        /* ============== page 2 ========== */
+
+     .page2{
+        width: 100vw;
+        
+     }
+     .p2-wrapper{
+        width: 100%;
+        display: initial;
+        
+     }
+     .p2-l{
+        width: 100%;
+        display: initial;
+        margin-bottom: 2rem;
+     }
+     .p2-l .cont-l{
+        width: initial;
+        margin-left: 2rem;
+
+     }
+     .p2-l .cont-l h1{
+        font-size: 2rem;
+        /* font-weight: 600; */
+    }
+
+     .p2-r{
+        width: 100%;
+     }
+  
+     /* ---------------- Page 2 right section ------------- */
+
+     .p2-r{
+        width: 100vw;
+        display: initial;
+        position: inherit;
+     }
+     .p2-r .card-cont{
+        width: 90%;
+       margin-left: 2rem;
+     }
+
+    .p2-r .card{
+        width: 100vw;
+        height: 55vh;
+        background-color:#FFFFFF;
+        border-radius: 2rem;
+        padding-left: 5%;
+        margin: 2rem 0;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    }
+    .p2-r .card .card-top{
+        display:initial;
+        
+    }
+
+    .p2-r .card .icon{
+        width: 5rem;
+        object-fit: contain;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+    .p2-r .card  h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+
+        margin-left: 2rem;
+    }
+
+    .p2-r .card .card-bottom p{
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: gray;
+        margin-top: 9%;
+        /* text-align: center; */
+        margin-left: 2rem;
+    }
+    .p2-r .card .card-bottom button{
+        font-size: 1.5rem;
+        color: #9F0000;
+        background-color: transparent;
+        border: none;
+        margin-left: 2rem;
+    }
+    .p2-r .card-1{
+        position: initial;
+        
+    
+    }
+    
+    .p2-r #card2{
+        position: initial;
+   
+    
+    }
+
+
+    
+  }
+
+
+
+
+
+
+/*=======================================================================================*/
+
+
+  @media (min-width: 601px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    nav .menu , nav button{
+        display: none;
+
+    }
+    nav i{
+        display: initial;
+        margin-right: 5%;
+        font-size: 2rem;
+    }
+    nav h1:first-child{
+        margin-left: 5%;
+    }
+
+    nav{
+        justify-content: space-between;
+        width: 100vw;
+        height: 10%;
+    }
+
+    /*======================= PAGE 1 ========================*/
+
+
+    .page1-wrapper{
+        display: initial;
+    }
+
+    .page1-l{
+        width: 100vw;
+    }
+    .page1-r{
+        width: 100vw;
+
+    }
+    .page1-l .content button{
+        margin-bottom: 3%;
+    }
+
+
+
+
+/*======================= PAGE 2 ========================*/
+
+    .page2{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        
+     }
+     .p2-wrapper{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        
+     }
+     .p2-l{
+        width: 100%;
+        display: initial;
+        margin-bottom: 2rem;
+     }
+     .p2-l .cont-l{
+        width: 100%;
+        margin-left: 2rem;
+
+     }
+     .p2-l .cont-l h1{
+        font-size: 2rem;
+        /* font-weight: 600; */
+    }
+
+     
+  
+       /* ---------------- Page 2 right section ------------- */
+
+     .p2-r{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        position: none;
+     }
+     .p2-r .card-cont{
+        width: 100%;
+       margin-left: 2rem;
+     }
+
+    .p2-r .card{
+        width: 100vw;
+        height: 55vh;
+        background-color:#FFFFFF;
+        border-radius: 2rem;
+        padding-left: 5%;
+        margin: 2rem 0;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    }
+    .p2-r .card .card-top{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .p2-r .card .icon{
+        width: 5rem;
+        object-fit: contain;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+    .p2-r .card  h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+
+        margin-left: 2rem;
+    }
+
+    .p2-r .card .card-bottom p{
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: gray;
+        margin-top: 9%;
+        /* text-align: center; */
+        margin-left: 2rem;
+    }
+    .p2-r .card .card-bottom button{
+        font-size: 1.5rem;
+        color: #9F0000;
+        background-color: transparent;
+        border: none;
+        margin-left: 2rem;
+    }
+    .p2-r .card-1{
+        position: initial;
+        
+    
+    }
+    
+    .p2-r #card2{
+        position: initial;
+   
+    
+    }
+
+    
+  }

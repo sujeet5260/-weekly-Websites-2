@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: helvatica;
+
+
+}
+
+/* ===================== NAVBAR ==================== */
+header{
+    width: 100vw;
+
+    
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3%;
+    /* background-color:; */
+    width: 80%;
+    margin: 0 auto;
+
+}
+nav > img{
+    max-width: 100%;
+    height: auto;
+}
+nav > ul{
+    display: inherit;
+    list-style-type: none;
+    gap: 7%;
+    margin: 0 20%;
+    
+}
+nav > ul > li {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+nav > .btn{
+    display: flex;
+    
+}
+
+nav > .btn > button{
+    width:10rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 5% 2%;
+    border-radius: 5rem;
+    margin: 0 5%;
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+/* ========================== PAGE 1 ==================
+ */
+
+ .page1{
+    width: 100vw;
+    /* text-align: center; */
+ }
+ .page1-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+ }
+
+ .page1-wrapper > .page1-content{
+    width: 50%;
+    margin-bottom: 10vh;
+    /* font-size: 7rem;
+    font-weight: 700;
+    text-align: center; */
+
+ }
+ .page1-wrapper > .page1-content h1{
+    font-size: 7rem;
+ }
+    
+ .page1-wrapper > .page1-content p{
+    font-size: 1.5rem;
+    margin: 3% 0;
+ }
+
+ .p1-btn > button{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1rem  1.5rem;
+    margin: 0 1.5rem;
+    border-radius: 2rem;
+
+ }
+ .p1-btn-1{
+    background-color: black;
+    color: white;
+ }
+ 
+
+ hr{
+    width: 70%;
+    margin: 3% 0;
+    font-size: 2rem;
+    background-color: gray;
+ }
+
+ /* ------------------ Page  innter slider ----------- */
+
+ .page1-slider{
+    text-align: center;
+    margin: 3% 0;
+ }
+ .page1-slider p:first-child{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 1%;
+    color: gray;
+
+ }
+
+ .page1-slider > .inner-slid{
+    width: 150%;
+    display: flex;
+   align-items: center;
+    gap: 5%;
+    background-color: yellowgreen;
+
+ }
+ .page1-slider > .inner-slid img{
+   margin-top: 3rem;
+
+ }

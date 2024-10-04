@@ -1,0 +1,485 @@
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    nav > .nav-top {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .nav-top h4, .nav-top p {
+        font-size: 1rem;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .nav-middle {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 20vh;
+    }
+
+    .nav-middle h1 {
+        font-size: 1.5rem;
+        padding-left: 0;
+        margin-right: 5%;
+        
+    }
+
+    .search-container {
+        flex-direction: row;
+        width: 100%;
+      
+    }
+
+    .search-input {
+        width: 80%;
+    }
+    .nav-middle .user-icon{
+        display: flex;
+        margin-left: 7%;
+    
+    }
+    .nav-middle .search-container input , .nav-middle .search-container select,.nav-middle .search-container button{
+
+          font-size: 12px;
+          height: 5vh;
+
+
+    }
+    .nav-middle .search-container select{
+        width: 4%;
+    }
+
+    .nav-middle .user-icon img {
+        width: 2rem;
+        margin: 10px;
+    }
+
+    .nav-bottom {
+        flex-direction: row;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-bottom .box1 {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        font-weight: 400;
+        display: none;
+    }
+      
+    .nav-bottom .box2 select{
+
+        padding: 0.2rem;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        margin: 0 2%;
+        background-color:transparent;
+        outline: none;
+    
+    }
+
+    .page1 {
+        height: auto;
+    }
+
+    .page1-content {
+        flex-direction: column;
+        
+    }
+
+    .page1-content > .left {
+        width: 100%;
+        margin-left: 1%;
+        margin-bottom: 2%;
+    }
+    .page1-content .right .box2{
+
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    .page1 .right{
+        width: 100%;
+        margin-left: 0.5%;
+    }
+
+    .box-left, .box-right {
+        width: 100%;
+    }
+    .page1-content .left .box-left p{
+        font-size: 1rem;
+    }
+    .page1-content .left .box-left button{
+        font-size: 1rem;
+    }
+    .page1-content .box-left h1{
+        font-size: 1rem;
+    }
+
+    .page1 .box-right img {
+        height: auto;
+    }
+    .page1 .right{
+        background-color:#DFE6EC ;
+    }
+
+    .page1 .right .box2 {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .l-box, .r-box {
+        width: 100%;
+    }
+
+
+    /*============================== PAGE 2 ================================*/
+
+    .page2 .page-switch div{
+         background-color: black;
+         color: white;
+         width: 15vw;
+         /* border-radius: ; */
+    
+    }
+    .page2 .page-switch div p{
+
+        font-size: 10px;
+        font-weight: 400;
+        padding: 7% 10%;
+        text-align: center;
+    }
+
+      /*===========Page2 content ===============*/
+
+      .page2-content{
+        margin: 5px 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .page2-content .img{
+        height: 80%;
+    }
+    .page2-content .discription{
+        height: 25%;
+    }
+    
+    .page2-content .card{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        width: 40vw;
+        height: 43vh;
+        margin-top: 5vh;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+    .page2-content .card .img{
+        overflow: hidden;
+       
+        
+    }
+    .page2-content .card img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+        
+    
+    }
+    .page2-content .card p{
+         text-align: center;
+         font-size: 20px;
+         font-weight: 400;
+         color: gray;
+         margin: 3% ;
+    
+    }
+    .page2-content .card p span{
+        
+        color: black;
+        margin-left: 4px;
+    }
+
+
+    /*====================== PAGE 3 ====================*/
+
+    .page3{
+        width: 100vw;
+        height: 40vh;
+    }
+    .page3-wrapper{
+        width: 100%;
+    }
+    
+    .l-content p{
+        font-size: 1rem;
+        color: #e4a451;
+        margin-bottom: 7%;
+    }
+    .l-content h1{
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+    
+    }
+    .l-content button{
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        padding-bottom: 1%;
+        background-color: transparent;
+        border-bottom: 2px solid black;
+    }
+    page3-r img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+
+
+    
+
+
+
+
+}
+
+/* Tablet styles (600px to 1024px width) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .nav-top{
+        width: 100vw;
+    }
+
+    .nav-middle h1 {
+        font-size: 2.1rem;
+    }
+
+    .search-input {
+        width: 60%;
+    }
+    .nav-middle .user-icon{
+        display: flex;
+    }
+
+    .nav-middle .user-icon img {
+        width: 3rem;
+    }
+
+    .nav-bottom .box1{
+        width: 30%;
+    }
+    .nav-bottom .box1 > h2{
+
+        font-size: 1.1rem;
+    }
+     .nav-bottom .box2 {
+        width: 70%;
+    }
+    .nav-bottom .box2 select{
+
+        padding: 0.2rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        border: none;
+        margin: 0 2%;
+        background-color:transparent;
+        outline: none;
+    
+    }
+
+    .page1-content {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .page1-content > .left {
+        width: 55%;
+    }
+    .page1-content .left .box-left p{
+        font-size: 1.3rem;
+    }
+    .page1-content .left .box-left button{
+        font-size: 1rem;
+    }
+    .page1-content .box-left h1{
+        font-size: 1.46rem;
+    }
+    .page1-content .right .box2 .l-box h1{
+
+        font-size: 1.46rem;
+    }
+
+
+    .page1-content > .right {
+        width: 40%;
+    }
+
+
+
+    /*===================== PAGE 2 ====================*/
+
+    .page2{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .page2 .page-switch div{
+        background-color: black;
+        color: white;
+        width: 15vw;
+        margin-top: 1.5%;
+        /* border-radius: ; */
+   
+   }
+   .page2 .page-switch div p{
+
+       font-size: 20px;
+       font-weight: 400;
+       padding: 7% 10%;
+       text-align: center;
+   }
+
+
+
+   /*=============PAGE2 CONTENT ===============*/
+
+
+   .page2-content{
+    margin: 5px 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.page2-content .img{
+    height: 75%;
+}
+.page2-content .discription{
+    height: 20%;
+}
+
+.page2-content .card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 20vw;
+    height: 43vh;
+    margin-top: 5vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.page2-content .card .img{
+    overflow: hidden;
+   
+    
+}
+.page2-content .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+    
+
+}
+.page2-content .card p{
+     text-align: center;
+     font-size: 17px;
+     font-weight: 400;
+     color: gray;
+     margin: 3% 3%;
+
+}
+.page2-content .card p span{
+    font-size: ;
+    color: black;
+    margin-left: 4px;
+}
+
+
+/*======================= PAGE 3 ========================*/
+
+page3{
+    width: 100vw;
+    height: 40vh;
+}
+.page3-wrapper{
+    width: 100%;
+}
+
+.l-content p{
+    font-size: 1.3rem;
+    color: #e4a451;
+    margin-bottom: 7%;
+}
+.l-content h1{
+    font-size: 2rem;
+    margin-bottom: 5%;
+
+}
+.l-content button{
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    padding-bottom: 1%;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+page3-r img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop styles (above 1024px width) */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+
+    .search-input {
+        width: 30rem;
+    }
+
+    .nav-middle h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav-middle .user-icon img {
+        width: 3.125rem;
+    }
+}
