@@ -94,6 +94,7 @@
 .page3 > .page3-wrapper > .card > .para > p{
     font-size: 2rem;
 }
+<<<<<<< HEAD
 /* ========================== PAGE 4 =================== */
  .page4 > .page4-wrapper{
     width: 100%;
@@ -108,6 +109,8 @@
     text-align: center;
     
  }
+=======
+>>>>>>> 1507f6620d30c09875caacc333fd00a152664e6d
 
 }
 
