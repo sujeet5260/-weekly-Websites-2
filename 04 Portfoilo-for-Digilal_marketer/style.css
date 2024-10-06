@@ -12,6 +12,7 @@ body{
     width: 100vw;
     overflow-x: hidden;
     background-color: #060606;
+    font-family: helvetica;
 }
 
 
@@ -45,14 +46,19 @@ header > nav >.menu-icon{
 header > nav > .menu > ul > li{
     font-size: 1.3rem;
 }
+header > nav > .menu > ul > li:hover{
+    color:#F58650; 
+    cursor: pointer;
 
+
+}
 
 /* ====================== PAGE 1 ========================== */
 
 .page1{
     width: 100vw;
     height: 80%;
-    background-color: yellow;
+    /* background-color: yellow; */
    
    
 }
@@ -120,3 +126,169 @@ header > nav > .menu > ul > li{
     font-size: 1.2rem;
    margin-top: 3%;
 }
+
+
+/* ================================ PAGE 3============================= */
+
+.page3{
+    width: 100vw;
+}
+.page3 > .page3-wrapper{
+    display: flex;
+    gap: 3.5%;
+    justify-content: center;
+    margin: 2% 0;
+}
+.page3 > .page3-wrapper > .card{
+    width: 17rem;
+    height: 14rem;
+    background-color:#1b1a1a;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(134, 129, 129, 0.35) 0px 5px 15px;
+
+}
+
+.page3 > .page3-wrapper > .card > .img, .card > .numb , .card > .para{
+      margin: 2.5%;
+      /* font-size: 5rem; */
+
+}
+.page3 > .page3-wrapper > .card > .img{
+
+    font-size: 6rem;
+}
+.page3 > .page3-wrapper > .card > .numb > h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.page3 > .page3-wrapper > .card > .para > p{
+    font-size: 2rem;
+}
+
+
+/* ========================= PAGE 4 ======================== */
+
+.page4{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+.page4 >.page4-wrapper{
+    background-color: yellow;
+    width: 70%;
+    position: relative;
+    
+
+
+
+}
+.page4 >.page4-wrapper > .video {
+    width: 100%;
+    height: 35vh;
+   
+
+}
+.page4 >.page4-wrapper > .video > .fillter{
+    position: absolute;
+    background-color:transparent;
+    width: 100%;
+    height: 100%;
+    /* z-index: 5; */
+    top: 0;
+    background: rgba( 14, 14, 14, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.page4 >.page4-wrapper > .video > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/* <!-- ================= PAGE 5 =================== --> */
+ .page5{
+    width: 100vw;
+ }
+ .page5 >.page5-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3 ,30%);
+    grid-template-rows: repeat(2);
+    justify-content: center;
+
+ }
+ .page5 > .filcon{
+    width: 100%;
+    height: 10vh;
+    /* background-color: #F58650; */
+    text-align: center;
+    margin-top: 5%;
+ }
+ .page5-wrapper > .service-card{
+    width: 80%;
+    text-align: center;
+    background-color:#1b1a1a;
+    padding: 2.5% 0;
+    margin-top: 2rem;
+    color: white;
+ }
+ 
+ .page5-wrapper > .service-card h2 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+
+ }
+  .page5-wrapper > .service-card  p{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-weight: 400;
+
+ }
+
+ /* ============================ PAGE 6 ============================ */
+
+ .page6{
+    width: 100vw;
+
+ }
+ .page6-wrapper{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3 , auto );
+    grid-template-rows: repeat(2 ,auto);
+    gap: 1.8%;
+    margin: 1rem auto;
+    
+    
+
+ }
+ 
+ .page6 >.page6-wrapper > .our-portfolio{
+    object-fit:contain;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 1rem;
+       
+ }
+
+ .page6-wrapper >  .our-portfoli >  img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover;
+    object-position: center;
+    overflow: hidden; */
+    
+ }
+ .page6 > .our-portfoli-head > h2{
+   
+ }
