@@ -141,10 +141,11 @@ header > nav > .menu > ul > li:hover{
 }
 .page3 > .page3-wrapper > .card{
     width: 17rem;
-    height: 14rem;
+    height: 15rem;
     background-color:#1b1a1a;
     text-align: center;
     color: white;
+    overflow: hidden;
     box-shadow: rgba(134, 129, 129, 0.35) 0px 5px 15px;
 
 }
@@ -156,7 +157,7 @@ header > nav > .menu > ul > li:hover{
 }
 .page3 > .page3-wrapper > .card > .img{
 
-    font-size: 6rem;
+    font-size: 4.5rem;
 }
 .page3 > .page3-wrapper > .card > .numb > h2{
     font-size: 2.5rem;
