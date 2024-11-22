@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: wheat;
+    position:fixed;
+    z-index: 10;
+}
+nav .logodiv{
+    display: flex;
+}
+nav .logodiv h1 span{
+    color: orangered;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav .searchdiv{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+nav .searchdiv i{
+    font-size: 20px;
+}
+nav .searchdiv button{
+    font-size: 15px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(48, 216, 194);
+    border: none;
+    border-radius: 5px;
+}
+nav .searchdiv button i{
+    font-size: 15px;
+}
+nav .searchdiv .menu{
+    display: none;
+    width: 20px;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    padding-top: 1px;
+    position: relative;
+    background-color: rgb(252, 255, 243);
+}
+.page1 .left{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.page1 .left h1{
+    font-size: 50px;
+}
+.page1 .left h1 span{
+    color: rgb(255, 38, 0);
+}
+.page1 .left p{
+    margin: 40px 0px;
+    width: 400px;
+}
+.page1 .left button{
+    font-size: 15px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(48, 216, 194);
+    border: none;
+    border-radius: 5px;
+}
+.page1 .left button i{
+    font-size: 15px;
+}
+.page1 .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    /* background: rgb(223, 224, 217); */
+}
+.page1 .right .pic1{
+    width: 250px;
+    margin-top: 140px;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+.page1 .right .round-dot{
+    width: 150px;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.page1 .right .contact{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 520px;
+    left: 50px;
+    background: rgb(248, 240, 225);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 3;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
+.page1 .right .contact .icon{
+    font-size: 30px;
+    border-radius: 50%;
+}
+.page1 .right .pic2{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 320px;
+    right: 150px;
+    z-index: 2;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+.page1 .right .color-dot{
+    position: absolute;
+    width: 250px;
+    top: 225px;
+    right: 55px;   
+}
+
+
+/* --------------------------------------------------------- */
+
+
+.page2{
+    width: 100%;
+    height: 90vh;
+    background: rgb(245, 245, 245);
+    padding-top: 40px;
+}
+.page2 .upper-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.page2 .lower-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 0px 90px;
+}
+.box{
+    width: 230px;
+    height: 370px;
+    background: rgb(110, 110, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    border-radius: 5px;
+}
+.box button{
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+}
+.box button:active{
+    opacity: 0.8;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+.page3{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.page3 .page3-left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.page3 .page3-left .last-pic{
+    position: absolute;
+    width: 400px;
+    top: 130px;
+    left: 160px;
+    border-radius: 30px;
+    z-index: 3;
+}
+.page3 .page3-left .dot1{
+    position: absolute;
+    width: 270px;
+    top: 45px;
+    left: 70px;
+}
+.page3 .page3-left .dot2{
+    position: absolute;
+    width: 320px;
+    top: 150px;
+    left: 300px;
+}
+.page3 .page3-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+    padding-top: 100px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page3-right .head-div h2{
+    font-size: 35px;
+}
+.page3-right .head-div h2 span{
+    color: rgb(255, 136, 68);
+}
+.page3 .page3-right p{
+    width: 500px;
+}
+.page3 .page3-right .check-div h4 i{
+    color: rgb(192, 192, 2);
+    margin-right: 10px;
+}
+.page3 .page3-right .check-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* ---------------------------------------------------- */
+
+
+/* Footer Styles */
+.footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    width: 23%;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #1abc9c;
+  }
+  
+  .social-icons {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .social-icons li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons li a:hover {
+    color: #1abc9c;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #34495e;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }

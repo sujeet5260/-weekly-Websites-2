@@ -1,0 +1,51 @@
+@media only screen and (max-width: 450px) {
+    nav{
+        padding: 10px 20px;
+        justify-content: space-between;
+
+    }
+    nav .logodiv h1{
+        font-size: 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .searchdiv button{
+        display: none;
+    }
+    nav .searchdiv .menu{
+        display:inline-block;
+    }
+
+    /* page1 */
+
+    .left{
+        width: 100%;
+    }
+    .right{
+        position:;
+        background-color: aqua;
+    }
+}
+
+/* 
+@media only screen and (max-width: 700px) {
+    nav{
+        padding: 10px 20px;
+        justify-content: space-between;
+
+    }
+    nav .logodiv h1 span{
+        color: orangered;
+    }
+    nav .logodiv h1{
+        font-size: 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .searchdiv button{
+        display: none;
+    }
+} */
+
